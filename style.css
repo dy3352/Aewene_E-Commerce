@@ -1,0 +1,83 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px; /* Kurangi margin bawah untuk mencegah terlalu banyak jarak */
+    padding-top: 20px; /* Tambahkan padding atas agar judul tidak terlalu ke atas */
+}
+
+.title {
+    font-size: 3rem; /* Kurangi sedikit ukuran font untuk menjaga keterbacaan */
+    color: #000;
+}
+
+/* Navigation */
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.main-nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Center navigation for the home page */
+.center-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Top navigation for new arrival and collections */
+.top-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Additional styles for product pages */
+.product-details, .product-collection {
+    text-align: center;
+    margin-top: 40px; /* Kurangi margin atas untuk mencegah terlalu banyak jarak */
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tiga kolom sejajar */
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
